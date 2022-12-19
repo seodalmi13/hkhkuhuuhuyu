@@ -1,0 +1,41 @@
+<html>
+<head>
+<title> light bulb minor project</title>
+</head>
+<style>
+
+.center{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+.btn{
+padding:50px;
+background-color:green;
+}
+body{
+background-color:black;
+}
+</style>
+<body>
+<img class="center"id="bulb"src="bulb-off.jpg"alt="" >
+<p id ="toggleBtn" class="center btn>turn on</p>
+<script>
+let btn = document.getElementbyId('toggleBtn')
+let bulb = document.getElementbyId('bulb')
+
+btn.addEventListener('click',toggleBulb)
+function toggleBulb(e){
+
+if(btn.textContent.includes('On')){
+bulb.src="bulb-on.jpg"
+btn.textContent="turn off"
+}
+else {
+bulb.src="bulb-off.jpg"
+btn.textContent="turn on"
+}
+}
+</script>
+</body>
+</html>
