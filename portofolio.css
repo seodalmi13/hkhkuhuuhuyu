@@ -1,0 +1,18 @@
+h1
+{
+    
+    margin: 280px;
+    font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 20px 20px 20px #ababab;
+    
+}
+h1:hover{
+    color:blue;
+
+}
+body{
+
+background-image: url("https://source.unsplash.com/random");
+
+}
