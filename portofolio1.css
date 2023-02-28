@@ -1,0 +1,32 @@
+h3{
+  
+  font-family:cursive;
+text-align:center;
+font-size:100px;
+transition: color 5s;
+
+}
+h3:hover{
+
+color:green;
+
+}
+ #img1{
+   float:left;
+   margin:4px;
+   padding:1em;
+   border-radius:2px; 
+   background-color:magenta;
+   transition: border-radius 4s;
+
+}
+ #img1:hover{
+  border-radius:50%;
+}
+
+ body{
+    margin:0 auto;
+    max-width:900px;
+    width:90%;
+ 
+}
